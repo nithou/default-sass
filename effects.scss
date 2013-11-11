@@ -1,0 +1,7 @@
+@mixin transit($what,$when,$how) {
+	-webkit-transition: $what $when $how;
+	-moz-transition: $what $when $how;
+	-ms-transition: $what $when $how;
+	-o-transition: $what $when $how;
+	transition: $what $when $how;
+}
